@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management - Pharmacy Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pharmacy Management</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="profile-section">
+            <div class="container">
+                <h2>Manage Pharmacy</h2>
+                <p>Update your pharmacy details and inventory below.</p>
+                <form>
+                    <label for="pharmacy-name">Pharmacy Name</label>
+                    <input type="text" id="pharmacy-name" name="pharmacy-name" required>
+                    
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" required>
+                    
+                    <label for="contact">Contact</label>
+                    <input type="text" id="contact" name="contact" required>
+                    
+                    <label for="medicine-name">Medicine Name</label>
+                    <input type="text" id="medicine-name" name="medicine-name" required>
+                    
+                    <label for="expiry-date">Expiry Date</label>
+                    <input type="date" id="expiry-date" name="expiry-date" required>
+                    
+                    <label for="cost">Cost</label>
+                    <input type="number" id="cost" name="cost" required>
+                    
+                    <label for="stock">Stock Details</label>
+                    <input type="number" id="stock" name="stock" required>
+                    
+                    <button type="submit" class="btn primary">Update</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pharmacy Management. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
